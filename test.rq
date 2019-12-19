@@ -9,7 +9,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 
-SELECT ?x ? y ?z
+SELECT ?x ?y ?z
 WHERE {
-  ?x ? y ?z
+  ?x ?y ?z
 }LIMIT 10
