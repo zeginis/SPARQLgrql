@@ -1,5 +1,5 @@
   
-#+ endpoint: http://195.251.218.39:8890/
+#+ endpoint: http://195.251.218.39:8890/sparql
 #+ method: GET
 #+ summary: test
 
