@@ -8,7 +8,9 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 
-construct {?z owl:tt ?x}
+construct {?z a rdf:test.
+           ?z rdf:xaxa ?x.
+          ?x xsd:xoxoxo "123"}
 WHERE {
   ?x a ?z
 }LIMIT 10
